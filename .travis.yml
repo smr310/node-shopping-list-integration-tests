@@ -1,3 +1,10 @@
 language: node_js
 node_js: node
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: MqOKM7P7opZuoMe4+Zq9H7CgXJhWXejr/e2rmKfFl8eUnmENyTWbIXR+fataQCg655VqfclCZxovJUYm5LbomO3heXDaVm10cc1CgmDwWEjXCuCKWLTJcIJrxcpwK+1QLOSJt7EDciHPtYwQzI/G47dGa6Xh8gqS3nGvtQuLfOiOiDPIlVa27tbuiDLQ+OOidcQtp9T0SGIkk5i5XfdWaETiT8ntSnEt6V8ijlHRKqylJwfwCH2LfRUbOI5AA1KOq/LCsskXO9BWEmP+VK3OQE0xyU1gbjy0B7N+qSZ1U/sPqVPHl/Ec8TT2E2e5ylpqPcNlaampYuJWpt/aLn8N3aUJEOFSDIBmiDl3M7kepfs9mWnrdpIA1f429okaxvXrlPg6sceUGzhmb9OTxpibF/mr1QfW7cKB0VWKa7F09iDPWLhClLbwu2qMogByG+dXuHZMHxHBSuYdOOiingf8s9jPgH6e/w3VPrQDjlNVTIkbiKRXwzQmpRIAzsmij0l6l1CygUt7JBi+AMIXNpC6ri+a8pvLqDU6oHzvgknibdveKIVbOdDxRszlILllrctJieYv+WYBLhMquFTRRdVxkbiHeEWFyqIADWroze31jP77B47RuF9UyvmsOvXVXgMYEMb4IlfhQmJu6To4ZbNWMf7i12jtD4trtJCsrEmI3lo=
+  app: node-shopping-list-integration-tests
+  on: afternoon-tundra-79935
+    repo: smr310/node-shopping-list-integration-tests
+    branch: tests-for-recipes
